@@ -9,22 +9,114 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/cea6ac140b.js" crossorigin="anonymous"></script>
     <!-- tailwind cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
+      tailwind.config = {
+        theme: {
+          extend: {                     
+         
+          }         
         }
+      }
     </script>
+    <!-- daisyui cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />    
 </head>
-<body>
-    
+<body class="border border-red-700 mx-auto my-auto">  
+    <!-- header section -->
+    <header>
+      <!-- nav section -->
+      <div class="m-12">
+        <nav class="flex flex-row justify-evenly">
+          <div class="flex flex-row justify-between mr-2">
+              
+              <svg 
+              xmlns="http://www.w3.org/2000/svg" 
+              fill="none"
+              viewBox="0 0 24 24"            
+              stroke="currentColor" 
+              class="h-8 w-8 rounded-full bg-lime-400 -rotate-45 mr-4">
+              <path 
+              strokeLinecap="round" 
+              strokeLinejoin="round" 
+              stroke-width="1"
+              d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              </svg>
+              <h1 class="text-3xl">Rinterio</h1>
+          </div>
+          <div class="flex flex-row text-center ">
+            <ul class="flex flex-row list-image-none justify-between text-center 
+                       text-xl ">                            
+                <li class="text-[#494949] mr-6">Home</li>
+                <li class="text-[#737373] mr-6">Services</li>
+                <li class="text-[#737373] mr-6">Portfolio</li>
+                <li class="text-[#737373] mr-6">Blogs</li>
+                <li class="text-[#737373] mr-6">Contact Us</li> 
+            </ul>                       
+          </div>
+          <div class="flex flex-row justify-between  ">
+                <button class="bg-white rounded-full shadow w-11 h-10 text-[#737373] mr-6"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="bg-white rounded-full shadow w-11 h-10 text-[#737373] mr-6"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="btn  bg-lime-400 text-xl rounded-3xl  ">
+                  Book Consult
+                  <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  fill="none"
+                  viewBox="0 0 24 24"            
+                  stroke="currentColor" 
+                  class="h-8 w-8 rounded-full bg-black text-white -rotate-45">
+                  <path 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  stroke-width="1"
+                  d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                  </svg>            
+                  </button>
+                <button class="bg-white rounded-full shadow w-14 h-10 text-[#737373] mr-6 lg:hidden "><i class="fa-solid fa-bars"></i></button>
+          </div>
+        </nav>
+      </div>
+      <!-- nav section end -->
+      <!-- banner section -->
+      <div class="mx-64 w-full ">
+        <div class="mx-16 w-2/4">
+          <img src="assets/banner.png" alt="">
+        </div>
+        <br>
+        <div class="w-2/4 ">
+          <h1 class="text-3xl text-center text-[#212121] font-extrabold mx-16">A barn house of this design has a striking appearance</h1>
+          <br>
+          <p class="text-[#494949] text-center text-sm">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+          <br>
+          <div class="text-center ">
+            <button class="btn bg-lime-300 rounded-3xl ">
+            View Details
+            <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            fill="none"
+            viewBox="0 0 24 24"            
+            stroke="currentColor" 
+            class="h-8 w-8 rounded-full bg-lime-400 -rotate-45">
+            <path 
+            strokeLinecap="round" 
+            strokeLinejoin="round" 
+            stroke-width="1"
+            d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+            </svg>            
+            </button>
+          </div>     
+        </div>
+      </div>
+    </header>
+    <!-- headers section end-->
+     <!-- main section -->
+    <main class="border border-red-700 mx-auto my-auto" >
+      <section >
+      
+        
+      </section>   
+    </main>
 </body>
 </html>
