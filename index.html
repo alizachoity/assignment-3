@@ -16,15 +16,20 @@
       tailwind.config = {
         theme: {
           extend: {                     
-         
-          }         
+          fontfamily:{
+            'manrope':["Manrope",'system-ui']
+
+          }
+}       
         }
-      }
+          } 
+          
+      
     </script>
     <!-- daisyui cdn  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />    
 </head>
-<body class="border border-red-700"> 
+<body class="font-manrope"> 
 
 <!-- header section -->
 
@@ -95,12 +100,12 @@
       </div>
       <!-- nav section end -->
       <!-- banner section -->
-      <div class="mx-12 my-8   border border-red-700">
-        <div class="mx-auto w-1/2 border border-red-700">
+      <div class="mx-12 my-8  ">
+        <div class="mx-auto w-1/2 ">
           <img src="assets/banner.png" alt="">
         </div>
         <br>
-        <div class="mx-auto w-2/4 border border-red-700">
+        <div class="mx-auto w-2/4 ">
           <h1 class="text-3xl text-center text-[#212121] font-extrabold mx-16">A barn house of this design has a striking appearance</h1>
           <br>
           <p class="text-[#494949] text-center text-sm">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
@@ -127,7 +132,7 @@
     </header>
 <!-- headers section end-->
 <!-- main section -->
-    <main class="border border-red-700 mx-auto my-auto">
+    <main class=" mx-auto my-auto">
 
 <!-- 1st section -->
 
@@ -368,8 +373,8 @@
 <!--2nd section end  -->
 <!--3rd section  -->
 
-      <section>
-<div class="border border-red-600 my-6 mx-20">
+      <section class="">
+<div class="my-6 mx-20">
       <div class="text-center">          
           <button class="btn rounded-3xl p-3 my-2 w-80 bg-[#acef5f34] h-5">
             <svg 
@@ -585,8 +590,8 @@
 <!-- 3rd section end-->
 <!-- 4th section -->
       <section>
-        <div class="bg-local ..." style="background-image: url(assets/bg.jpg)">
-
+        <div class="bg-local ... text-center my-" style="background-image: url(assets/bg.jpg)">
+<div class="flex flex-col mx-auto sm:block">
          <div class="text-center">          
           <button class="btn rounded-3xl p-3 my-2 w-80 bg-[#acef5f34] h-5">
             <svg 
@@ -608,9 +613,9 @@
             We share the most effective pre-construction questions to ask to maximize the success of your next commercial construction project.</p>
         </div>
 
-<div class=" w-11/12 mx-9 mt-5">
+<div class=" w-11/12 mx-9 mt-5 ">
  
-        
+
   <div class="grid grid-cols-2 gap-2 w-full">
     <div class="card bg-white text-[#737373] rounded-full h-14 grid  flex-grow p-2">First Name*</div>    
     <div class="card bg-white text-[#737373] rounded-full h-14  grid  flex-grow p-2">Last Name*</div>
@@ -621,7 +626,7 @@
  <div class="card my-5 bg-white text-[#737373] rounded-box grid h-48 w-full flex-grow p-2">Write your message here</div>
 
 
-<button class="btn my-3  flex flex-row border-none text-xl w-full bg-lime-300 rounded-3xl ">
+<button class="btn mb-10  flex flex-row border-none text-xl w-full bg-lime-300 rounded-3xl ">
   Send Mail
   <svg 
   xmlns="http://www.w3.org/2000/svg" 
@@ -638,7 +643,7 @@
   </button>
 </div>
 
-          
+     </div>     
         </div>
       </section>
 <!-- 4th section -->
@@ -726,13 +731,15 @@
   <p class="text-[#6f6e6e]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
  </div>
 <div class="w-4/5" >
-  <nav class="grid grid-cols-5 gap-4" >
+  
+  <nav class="grid grid-cols-5 gap-4">
     <a class="link link-hover text-[#6f6e6e]">Home</a>
     <a class="link link-hover text-[#6f6e6e]">Services</a>
     <a class="link link-hover text-[#6f6e6e]">Portfolio</a>
     <a class="link link-hover text-[#6f6e6e]">Blogs</a>
     <a class="link link-hover text-[#6f6e6e]">Contact Us</a>
   </nav>
+  
 </div>
 <button class="btn w-72  flex flex-row border-none text-xl bg-lime-300 rounded-3xl ">
   Book consult
